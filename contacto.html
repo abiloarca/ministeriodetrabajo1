@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>MINISTERIO</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="Css/EstiloInicio.css" type="text/css"/>
+    <link rel="stylesheet" href="contacto.html" type="text/css"/>
+     <link rel="stylesheet" href="enviar.php" type="text/css"/>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" type="imagen/png" href="Img/logopng.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src='script/script.js'></script>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="Css/EstiloMenu.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<link rel="stylesheet" href="Css/nivo-slider.css">
+	<link rel="stylesheet" href="Css/mi-slider.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript"> 
+		$(window).on('load', function() {
+		    $('#slider').nivoSlider(); 
+		}); 
+	</script>
+<script>
+$(document).ready(function(){
+ 
+    $('.ir-arriba').click(function(){
+        $('body, html').animate({
+            scrollTop: '0px'
+        }, 300);
+    });
+ 
+    $(window).scroll(function(){
+        if( $(this).scrollTop() > 0 ){
+            $('.ir-arriba').slideDown(300);
+        } else {
+            $('.ir-arriba').slideUp(300);
+        }
+    });
+});
+  </script>
+</head>
+<body>
+<div class="redes">
+    <a href="https://es-la.facebook.com/Mintrabajoguatemala/" target="_blank"><div id="facebook" class="icon-facebook"></div></a>
+    <a href="https://twitter.com/MINTRABAJOGuate?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><div id="twitter" class="icon-twitter"></div></a>
+    <a href="https://telegram.me/share/url?url=https%3A%2F%2Fwww.mintrabajo.gob.gt%2F%23.X1qjwkZlh-Y.telegram&text=Ministerio+de+Trabajo+y+Previsi%C3%B3n+Social+-+Inicio" target="_blank"><div id="messenger" class="icon-telegram"></div></a>
+    <a href="https://es-la.facebook.com/Mintrabajoguatemala/" target="_blank"><div id="mail" class="icon-mail2"></div></a>
+    <a href="https://www.messenger.com/" target="_blank"><div id="messenger" class="icon-bubbles"></div></a>
+    <a href="https://api.whatsapp.com/send?text=Ministerio%20de%20Trabajo%20y%20Previsi%C3%B3n%20Social%20-%20Inicio%20https%3A%2F%2Fwww.mintrabajo.gob.gt%2F%23.X1msLD0aWSg.whatsapp" target="_blank"><div id="Whatsapp" class="icon-whatsapp"></div></a>
+    <a  onclick="window.print()"><div id="imprimir" class="icon-printer"></div></a>
+</div>
+  	<span class="ir-arriba icon-arrow-up2"></span>
+        <header><img src="Img/telefono.png" class="a"><p class="a">+502 47334758</p><img src="Img/arroba.png" class="b"><p class="b">diana.loarca.v4@gmail.com.com</p>
+	<img src="Img/ministerio.png" class="covid">
+	<img src="Img/covid.png" class="ministerio">
+
+       	<nav>
+			<ul>
+				<li><a href="index.html"><span class="primero"><i class="icon icon-home"></i></span>Inicio</a></li>
+				<li><a href="#"><span class="segundo"><i class="icon icon-users"></i></span>Nosotros</a>
+				</li>
+				<li><a href="#"><span class="tercero"><i class="icon icon-files-empty"></i></span>Documentación</a></li>
+				<li><a href="#"><span class="cuarto"><i class="icon icon-cogs"></i></span>Servicios</a></li>
+				<li><a href="contacto.html"><span class="quinto"><i class="icon icon-message"></i></span>Contacto</a>
+                </li>
+			</ul>
+		</nav>
+		</header><br>
+		<input class="documentacion" type="submit" title="Documentación" value="Documentación" onclick="location.href = '#'"></input>
+              <form action="enviar.php" method="post">
+                  <br>
+                 <center> <h2>CONTACTO</h2> <br>
+                        <input type="text" name="Nombre" placeholder="Nombre"
+                               required>
+                     <br>                     <br>
+
+                        <input type="text" name="Correo" placeholder="Correo"
+                               required>
+                     <br>                     <br>
+
+                        <input type="text" name="telefono" placeholder="Telefono"
+                               required>
+                     <br>                     <br>
+
+                  <textarea name="Mensaje" placeholder="Escriba el mensaje que desea enviar." required></textarea> 
+                        <input type="submit" value="ENVIAR" id="boton"> </center>  
+                    
+                    </form>
+		

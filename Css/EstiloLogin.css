@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 10px;
+    text-align: center;
+    color:white; 
+    width: 80%;
+    height: 20%;
+    font-size: 50;
+}
+img.cerrar {
+   width: 50px;
+   height: 50px;
+   cursor: pointer;
+   position: absolute;top: 5px;right:10px;
+}
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login__container {
+    background-color: white;
+    width: 37%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.login__top {
+    background-color: white;
+    border-top: solid 10px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px;
+    border-radius: 20px;
+}
+
+.imagen {
+    width: 200px;
+    height: 200px;
+    padding: 0px 0px;
+}
+
+.titulos {
+  color:purple;
+}
+.form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 0px;
+    text-align: center;
+    border-radius: 20px;
+}
+input[type=text], [type=password] {
+    margin: 4PX 0;
+    padding: 5PX;
+    border: none;
+    border-bottom: solid #259F88;
+    background: white;
+    transition: all .4s
+}
+
+input[type=text]:focus, [type=password]:focus {
+    outline: none;
+    border-bottom: solid  #259F88;
+    
+}
+.botonIngresar {
+    border: none;
+    padding: 10px 0;
+    margin: 40px 0 15px;
+    background-color: #EB623E;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.botonIngresar:hover {
+  background: #EA572F;
+    color: white;
+}
+.botonRegistrar {
+    border: none;
+    padding: 10px 0;
+    margin: 5px 0 0px;
+    background-color: #EB623E;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer; 
+    width: 410px;
+}
+.botonRegistrar:hover {
+    background-color: #EA572F; 
+    color: white;
+}

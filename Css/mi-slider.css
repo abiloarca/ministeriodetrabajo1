@@ -1,0 +1,41 @@
+
+.theme-mi-slider .nivoSlider{
+	position:relative;
+	margin-top: 25px;
+}
+
+.nivo-controlNav{
+	display: flex;
+	justify-content: center;
+}
+
+.theme-mi-slider .nivo-control{
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #545454;
+	margin: 5px;
+	text-indent: -9999px
+}
+.nivo-directionNav a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	color: black;
+
+}
+
+.nivo-directionNav .nivo-prevNav{
+	background-image: url(../Img/icons/circle-left.png);
+	background-size: cover;
+	text-indent: -9999px;
+	left: 6px;
+}
+
+.nivo-directionNav .nivo-nextNav{
+	background-image: url(../Img/icons/circle-right.png);
+	background-size: cover;
+	text-indent: -9999px;
+	right: 6px;
+}

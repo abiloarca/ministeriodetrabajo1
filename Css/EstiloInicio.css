@@ -1,0 +1,668 @@
+*{
+        margin: 0px;
+        padding: 0px;
+ }
+ header{
+    height: 7%;
+    margin-top: 0;
+    left: 0px;
+    background-color: #003366;
+}
+img.ministerio{
+        width: 40%;
+        height: 140%;
+        margin-bottom: 50px;
+        margin-left: 130px;
+}
+img.covid{
+        width: 14%;
+        height: 240px;
+        margin-top: 15px;
+        margin-left: 65px;
+}
+input.documentacion{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(20, 136, 194);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    margin-top:110px;
+    margin-bottom:50px;
+    margin-left:970px;
+}
+input.documentacion:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(14, 96, 135);
+    transition: all .4s ease;
+    border-radius: 2px 2px 2px 2px;
+    text-decoration: none; 
+}
+img.a{
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 27px;
+}
+img.b{
+        width: 25px;
+        height: 25px;
+        margin-top: -23px;
+        margin-left: 170px;
+}
+p.a{
+        font-family: Arial;
+        color: white;
+        margin-top: -20px;
+        margin-left: 60px;
+        font-size: 15px;
+}
+p.b{
+        font-family: Arial;
+        color: white;
+        margin-top: -20px;
+        margin-left: 206px;
+        font-size: 15px;
+}
+.general{
+        background-color: white;
+	float: left;
+        margin-top:30px;
+        width: 100%;
+        height: auto;
+        margin-bottom:20px;
+}
+.recomendaciones{
+        background-color: white;
+	float: left;
+        width: 50%;
+        height: auto;
+}
+.sistemas{
+        background-color: white;
+	float: left;
+        width: 50%;
+        height: auto;
+}
+img.r{
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+}
+img.s{
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+}
+input.b1{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 70%;
+    height: 50PX;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(20, 136, 194);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    border-radius: 5px 5px 5px 5px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+input.b1:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(91, 192, 222);
+    transition: all .4s ease;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none; 
+}
+input.b2{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 70%;
+    height: 50PX;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(91, 192, 222);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    border-radius: 5px 5px 5px 5px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+input.b2:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(20, 136, 194);
+    transition: all .4s ease;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none; 
+}
+input.b3{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 70%;
+    height: 50PX;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(217, 83, 79);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    border-radius: 5px 5px 5px 5px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+input.b3:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(201, 48, 44);
+    transition: all .4s ease;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none; 
+}
+input.b4{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 70%;
+    height: 50PX;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(92, 184, 92);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    border-radius: 5px 5px 5px 5px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+input.b4:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(68, 157, 68);
+    transition: all .4s ease;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none; 
+}
+input.b5{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    width: 70%;
+    height: 50PX;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(240, 173, 78);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    border-radius: 5px 5px 5px 5px;
+    margin-top:20px;
+    margin-bottom:5px;
+}
+input.b5:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(237, 151, 35);
+    transition: all .4s ease;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none; 
+}
+img.PDT{
+        width: 100%;
+        height: auto;
+	margin-top:50px;
+}
+input.IA{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(23, 72, 142);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    margin-top:-70px;
+    margin-bottom:0px;
+    margin-left:893px;
+    border-radius: 5px 5px 5px 5px;
+}
+input.IA:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(14, 96, 135);
+    transition: all .4s ease;
+    border-radius: 2px 2px 2px 2px;
+    text-decoration: none; 
+    border-radius: 5px 5px 5px 5px;
+}
+.uno{
+        background-color: white;
+	float: left;
+        width: 16%;
+        height: auto;
+	margin-top:20px;
+	cursor: pointer;
+}
+.dos{
+        background-color: white;
+	float: left;
+        width: 16%;
+        height: auto;
+	margin-top:20px;
+	cursor: pointer;
+}
+.tres{
+        background-color: white;
+	float: left;
+        width: 16%;
+        height: auto;
+	margin-top:20px;
+	cursor: pointer;
+}
+.cuatro{
+        background-color: white;
+	float: left;
+        width: 16%;
+        height: auto;
+	margin-top:20px;
+	cursor: pointer;
+}
+.cinco{
+        background-color: white;
+	float: left;
+        width: 16%;
+        height: auto;
+	margin-top:20px;
+	cursor: pointer;
+}
+.seis{
+        background-color: white;
+	float: left;
+        width: 16%;
+        height: auto;
+	margin-top:20px;
+}
+img.se{
+        width: auto;
+        height: auto;
+	cursor: pointer;
+}
+img.Servicios_electronicos{
+        width: 300px;
+        height: 50px;
+        margin-top: 10px;
+	margin-bottom:15px;
+}
+img.noticias{
+        width: 180px;
+        height: 217px;
+	magin: 50px;
+        margin-top: 10px;
+	margin-bottom:15px;
+}
+input.N1{
+    text-decoration:none;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    color:white;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:0px;
+    padding-right:0px;
+    background-color: RGB(43, 73, 88);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    margin-top:-625px;
+    margin-bottom:100px;
+    margin-left:520px;
+    border-radius: 5px 5px 5px 5px;
+}
+input.N1:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(14, 96, 135);
+    transition: all .4s ease;
+    border-radius: 2px 2px 2px 2px;
+    text-decoration: none; 
+    border-radius: 5px 5px 5px 5px;
+}
+input.N2{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(20, 136, 194);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    margin-top:-70px;
+    margin-bottom:0px;
+    margin-left:50px;
+    border-radius: 5px 5px 5px 5px;
+}
+input.N2:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(14, 96, 135);
+    transition: all .4s ease;
+    border-radius: 2px 2px 2px 2px;
+    text-decoration: none; 
+    border-radius: 5px 5px 5px 5px;
+}
+input.N3{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: RGB(20, 136, 194);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    margin-top: 50px;
+    border-radius: 5px 5px 5px 5px;
+}
+input.N3:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(14, 96, 135);
+    transition: all .4s ease;
+    border-radius: 2px 2px 2px 2px;
+    text-decoration: none; 
+    border-radius: 5px 5px 5px 5px;
+}
+.general1{
+        background-color: white;
+	float: left;
+        width: 100%;
+        height: auto;
+}
+img.servicios1{
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+	margin-bottom:15px;
+}
+.UAIP1{
+        background-color: white;
+	float: left;
+        width: 30%;
+        height: auto;
+	margin-top:20px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.ET{
+        background-color: white;
+	float: left;
+        width: 30%;
+        height: auto;
+	margin-top:20px;
+	margin-left: -30px;
+	cursor: pointer;
+}
+.ET1{
+        background-color: white;
+	float: left;
+        width: 30%;
+        height: auto;
+	margin-top:20px;
+	margin-left: -80px;
+	cursor: pointer;
+}
+img.info{
+        width: 100%;
+        height: auto;
+}
+a.boton{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    float: left;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: RGB(11, 42, 74);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-left:15px;
+    border-radius: 100px 100px 100px 100px;
+}
+a.boton:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(14, 96, 135);
+    text-decoration: none; 
+}a.boton1{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:white;
+    float: left;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: RGB(11, 42, 74);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-left:545px;
+    border-radius: 100px 100px 100px 100px;
+}
+a.boton1:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(14, 96, 135);
+    text-decoration: none; 
+}
+.enlaces{
+        background-color: white;
+	float: left;
+        width: 33%;
+        height: auto;
+	margin-left: 0px;
+	cursor: pointer;
+}
+.enlaces1{
+        background-color: white;
+	float: left;
+        width: 21%;
+        height: auto;
+	margin-top:0px;
+	cursor: pointer;
+}
+input.b6{
+    text-decoration:none;
+    font-size: 17px;
+    width: 60%;
+    height: 50PX;
+    color:black;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:40px;
+    background-color: RGB(247, 247, 244);
+    border-width: 0px;
+    border-style: solid;
+    border:none;
+    border-radius: 7px;
+    margin-top:4px;
+    margin-left:80px;
+    margin-bottom:5px;
+}
+input.b6:hover {
+    color: white;
+    cursor:pointer;
+    background-color: RGB(20, 136, 194);
+    transition: all .4s ease;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none; 
+}
+.redes{
+        position: fixed;
+        top:120px;
+        z-index:1000;
+        right: 0;
+        }
+#facebook{
+    background-color: #3b5998;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+}
+#facebook:hover{
+    background-color: #000;
+    width: 30px;
+    transition: all .6s ease;
+    border-radius: 60px 0px 0px 60px;
+    text-decoration: none;
+    color:grey;
+}
+#twitter{
+    background-color: #55acee;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+}
+#twitter:hover{
+    background-color: #000;
+    width: 20px;
+    transition: all .4s ease;
+    border-radius: 60px 0px 0px 60px;
+    text-decoration: none;
+    color:grey;
+}
+#mail{
+    background-color: #4C4646;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+}
+#mail:hover{
+    background-color: #000;
+    width: 20px;
+    transition: all .4s ease;
+    border-radius: 60px 0px 0px 60px;
+        text-decoration: none;
+    color:grey;
+}
+#messenger{
+    background-color: RGB(0, 132, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+}
+#messenger:hover{
+    background-color: #000;
+    width: 20px;
+    transition: all .4s ease;
+    border-radius: 60px 0px 0px 60px;
+        text-decoration: none;
+    color:grey;
+}
+#Whatsapp{
+    background-color: RGB(77, 194, 71);
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+}
+#Whatsapp:hover{
+    background-color: #000;
+    width: 20px;
+    transition: all .4s ease;
+    border-radius: 60px 0px 0px 60px;
+        text-decoration: none;
+    color:grey;
+}
+#imprimir{
+    background-color: RGB(115, 138, 141);
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+}
+#imprimir:hover{
+    background-color: #000;
+    width: 20px;
+    transition: all .4s ease;
+    border-radius: 60px 0px 0px 60px;
+    text-decoration: none;
+    color:grey;
+}
+.ir-arriba {
+    display:none;
+    padding:20px;
+    background:RGB(11,42,74);
+    font-size:20px;
+    color:#fff;
+    cursor:pointer;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    border-radius: 3px;
+    z-index: 1000;
+}
+.ir-arriba:hover {
+    background:RGB(17,65,113);
+    color: #fff;
+}
+img.blanco{
+        width: 100%;
+        height: 20px;
+}
+#footer {
+        width: 100%;
+        height: 40px;
+        background-color: #282923;
+        text-align: center;
+        color:white;
+}
